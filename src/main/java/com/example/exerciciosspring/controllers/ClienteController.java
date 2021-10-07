@@ -22,7 +22,7 @@ public class ClienteController {
     }
 
     @GetMapping
-    public Cliente findByIdGetParamInUrl(@RequestParam(name = "id") int id) {
+    public Cliente findByIdGetParamInUrl(@RequestParam(name = "id", defaultValue = "1") int id) {
         return new Cliente(id, "João", "50056303092");
     }
 
