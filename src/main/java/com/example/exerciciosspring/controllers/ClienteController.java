@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/clientes")
+@RequestMapping("/clientes")
 public class ClienteController {
 
-    @GetMapping(path = "/qualquer")
+    @GetMapping("/qualquer")
     public Cliente getCliente() {
         return new Cliente(28, "Pedro", "76823380080");
     }
