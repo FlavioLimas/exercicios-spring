@@ -13,4 +13,9 @@ public class FirstController {
         return MESSAGE;
     }
 
+    @GetMapping(path = {"/saudacao"})
+    public String saudacao() {
+        return MESSAGE;
+    }
+
 }
