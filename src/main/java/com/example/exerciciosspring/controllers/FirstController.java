@@ -8,7 +8,7 @@ public class FirstController {
 
     public static final String MESSAGE = "Hello Word!";
 
-    @GetMapping(path = "/ola")
+    @GetMapping(path = {"/ola", "/saudacao"})
     public String hello() {
         return MESSAGE;
     }
