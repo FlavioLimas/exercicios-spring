@@ -1,4 +1,4 @@
-package com.example.exerciciosspring.models;
+package com.example.exerciciosspring.model;
 
 import lombok.Getter;
 import lombok.Setter;

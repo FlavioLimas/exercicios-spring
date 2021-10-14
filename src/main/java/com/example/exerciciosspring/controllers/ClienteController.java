@@ -1,6 +1,6 @@
 package com.example.exerciciosspring.controllers;
 
-import com.example.exerciciosspring.models.Cliente;
+import com.example.exerciciosspring.model.Cliente;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
