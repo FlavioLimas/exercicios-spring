@@ -15,10 +15,10 @@ public class Produto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private String nome;
+    private String name;
 
     public Produto(String nome) {
-        this.nome = nome;
+        this.name = nome;
     }
 
 }
